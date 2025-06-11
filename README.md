@@ -56,7 +56,7 @@ AGENCY_ID=your_agency_id
 ### Build the Application
 
 ```bash
-dotnet build
+dotnet build hawksoft-data-sync.sln
 ```
 
 ### Run the Application
