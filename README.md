@@ -46,6 +46,7 @@ export AGENCY_ID="your_agency_id"
 Create a `.env` file in the project root:
 
 ```
+BASE_URL=your_base_url
 API_USER=your_api_user_id
 API_PASS=your_api_password
 AGENCY_ID=your_agency_id

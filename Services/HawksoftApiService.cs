@@ -18,7 +18,7 @@ public class HawksoftApiService
     {
         _httpClient = httpClient;
         _logger = logger;
-        _baseUrl = "https://30hawksoft-integration-api.azurewebsites.net";
+        _baseUrl = configuration["BASE_URL"] ?? throw new ArgumentException("BASE_URL not configured");
         _agencyId = configuration["AGENCY_ID"] ?? throw new ArgumentException("AGENCY_ID not configured");
 
         // Setup authentication
